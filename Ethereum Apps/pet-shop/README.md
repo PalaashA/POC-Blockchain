@@ -7,3 +7,7 @@ The website structure and styling will be supplied. Our job is to write the smar
 ## Requirements
 * Truffle : `npm install -g truffle`
 * Ganache : http://truffleframework.com/ganache
+* Metamask : https://metamask.io/
+
+## Instructions
+> Follow instructions at : https://www.trufflesuite.com/tutorials/pet-shop
