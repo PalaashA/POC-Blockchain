@@ -2,21 +2,20 @@
 > This repository contains certain use case samples for Blockchain applications pursued by our team during Semesters V, VI and VII. Technologies discovered :  Ethereum/Hyperledger Fabric/Sockets.io
 
 ## Dependencies : 
-1. Dependencies required will be : Node 8.9 (use Node Version Manager for easy installation) & npm 5.6
-2. Docker, and Docker-Compose
-3. Python 2.7
-4. CURL
-5. Git
+- Node 8.9 (use Node Version Manager for easy installation) & npm 5.6
+- Docker, and Docker-Compose
+- Python 2.7
+- CURL
+- Git
 
 ## Installing the dependencies : 
-### Installing CURL-
+> The following instructions are for installing the dependencies in Ubuntu 18.04 (Bionic Beaver)!
+- Installing CURL-
 ``` sudo apt install curl ```
-
-### Installing Git - 
+- Installing Git - 
 ``` sudo apt install git ```
-
-### Node 8.9 and NPM through Node Version Manager -
-1. Execute the following lines in your Ubuntu bash terminal :
+- Node 8.9 and NPM through Node Version Manager -
+Execute the following lines in your Ubuntu bash terminal :
 ```
    sudo apt-get update
    sudo apt-get install build-essential libssl-dev
@@ -31,7 +30,7 @@
    node --version
    npm --version
 ```
-2. Installing Docker : 
+- Installing Docker : 
 ```
    sudo apt update
    sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -43,13 +42,13 @@
    sudo usermod -aG docker $(whoami)
    docker --version
 ```
-3. Installing Docker-Compose : 
+- Installing Docker-Compose : 
 ```
    sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
    sudo chmod +x /usr/local/bin/docker-compose
    docker-compose --version
 ```
-4. Installing Python 2.7 : 
+- Installing Python 2.7 : 
 ``` 
    sudo apt install python
    python --version
